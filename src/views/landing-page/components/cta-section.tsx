@@ -1,10 +1,8 @@
 import { motion, useAnimation, useInView } from 'framer-motion';
-import { BarChart, ChevronRight, File, Globe, HeartHandshake, Rss, Shield } from 'lucide-react';
+import { BarChart, File, Globe, HeartHandshake, Rss, Shield } from 'lucide-react';
 import { useEffect, useId, useRef, useState } from 'react';
 import Marquee from '@/components/ui/marquee';
-import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils.ts';
-import { buttonVariants } from '@/components/ui/button.tsx';
 
 const tiles = [
   {

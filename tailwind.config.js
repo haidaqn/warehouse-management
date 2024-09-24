@@ -20,9 +20,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'auth-illu': 'url(\'/background-auth\')',
-        'auth-intro': 'url(\'/intro-01.jpg\')',
-        'auth-intro-2': 'url(\'/intro-01-dark.jpg\')',
-
+        'auth-intro': 'url(\'/meo_ngu.jpg\')',
+        'auth-intro-2': 'url(\'/meo_ngu.jpg\')',
       },
       colors: {
         border: 'hsl(var(--border))',

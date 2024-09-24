@@ -7,16 +7,17 @@ import { cn } from '@/lib/utils.ts';
 import { buttonVariants } from '@/components/ui/button.tsx';
 
 
+
 const menuItem = [
   {
     id: 1,
     label: 'Sponsor me',
-    href: 'https://www.facebook.com/thanglonguniversity',
+    href: 'https://www.facebook.com/haidang02.03',
   },
   {
     id: 2,
     label: 'Social network',
-    href: 'https://www.facebook.com/thanglonguniversity',
+    href: 'https://www.facebook.com/haidang02.03',
   },
   {
     id: 3,
@@ -102,7 +103,8 @@ export function SiteHeader() {
         className="animate-fade-in fixed left-0 top-0 z-50 w-full -translate-y-4 border-b opacity-0 backdrop-blur-md [--animation-delay:600ms]">
         <div className="container flex h-16 items-center  justify-between">
           <Link to="/" className="text-md flex items-center">
-            <div className="w-[150px]"><Logo /></div>
+            {/* <img className="w-[77px]" src='/logo-removebg.png'/> */}
+            Logo chữ
           </Link>
 
           <div className="ml-auto hidden md:flex h-full items-center">
